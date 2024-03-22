@@ -1,0 +1,42 @@
+{
+  "name": "inciduntlaboriosam",
+  "version": "1.6.0",
+  "description": "libp2p Identify Protocol",
+  "main": "lib/index.js",
+  "jsnext:main": "src/index.js",
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "engines": {
+    "node": "^4.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnjaliGoldner/inciduntlaboriosam.git"
+  },
+  "keywords": [
+    "IPFS",
+    "libp2p"
+  ],
+  "author": "ClintLeuschke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnjaliGoldner/inciduntlaboriosam.git/issues"
+  },
+  "devDependencies": {
+    "aegir": "^3.2.0",
+    "pre-commit": "^1.1.3",
+    "stream-pair": "^1.0.3"
+  },
+  "dependencies": {
+    "debitisquo": "^1.0.0",
+    "length-prefixed-stream": "^1.5.0",
+    "multiaddr": "^2.0.2",
+    "omnislabore": "^1.0.0",
+    "peer-id": "^0.7.0",
+    "peer-info": "^0.7.0",
+    "protocol-buffers": "^3.1.6",
+    "veritatismaxime": "^1.0.0"
+  }
+}
